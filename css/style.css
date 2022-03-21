@@ -25,8 +25,8 @@ html {
 
 body {
   font-family: var(--font_body);
-  background-image: url(/images/bg-pattern-top-desktop.svg),
-    url(/images/bg-pattern-bottom-desktop.svg);
+  background-image: url(./images/bg-pattern-top-mobile.svg),
+    url(./images/bg-pattern-bottom-mobile.svg);
   padding: 3rem 1rem 1rem;
   font-size: 1.5rem;
   background-repeat: no-repeat, no-repeat;
@@ -136,6 +136,9 @@ body {
 @media only screen and (min-width: 768px) {
   body {
     padding: 10rem;
+    background-image: url(./images/bg-pattern-top-desktop.svg),
+      url(./images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
   }
 
   .main-container {
